@@ -1,2 +1,2 @@
 #!/bin/bash \n
-pwd 
+echo "$(dirname $( readlink -f "$0"))
