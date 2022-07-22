@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-i=0
-until [ $i -eq 10 ];
+#prints a string 10 times
+
+number=0
+until [ $number -eq 10 ]
 do
-  printf "Holberton School\n"
-  i=$((i+1))
+	echo "Holberton School"
+	number=$(( number + 1 ))
 done
